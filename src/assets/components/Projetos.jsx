@@ -4,6 +4,7 @@ import imagemCalcHipoteca from "../../assets/images/mortgage-calculator.png"
 import imagemCalcGorjeta from "../../assets/images/tip-calculator.png"
 import imagemCalcIdade from "../../assets/images/age-calculator.png"
 import imagemGaleria from "../../assets/images/galeria.png"
+import imagemFormulario from "../../assets/images/formulario-com-validacao.png"
 
 export const Projetos = () =>{
   return(
@@ -22,6 +23,15 @@ export const Projetos = () =>{
             repo="https://github.com/Leticiafbm/galeria-de-fotos-fusion.git"
             deploy="https://galeria-de-fotos-fusion.vercel.app/"
             techs={["ReactJs", "Tailwind", "Vite"]}
+          />
+          <Projeto 
+            src={imagemFormulario}
+            alt="imagem do formulário"
+            title="Formulário com validação"
+            desc="Formulário de cadastro dinâmico, baseado nos inputs do usuário."
+            repo="https://github.com/Leticiafbm/desafio-formulario-com-validacao-frontend"
+            deploy="https://desafio-formulario-com-validacao-fr.vercel.app/"
+            techs={["ReactJs", "Tailwind", "Vite", "Yup"]}
           />
           <Projeto 
             src={imagemCalcGorjeta}
